@@ -39,5 +39,12 @@ Step 8 : IAM policies
 To acces S3 bucket by EC2 instance added the AmazonS3FullAccess policy to the user and in the previous stage added the AdministratorAccess policy to the user.
 Also, ensured proper security groups are configured for the EC2 instance to allow web traffic on port 80.
 
-Step 9 : Documentaion in README file
+Step 9 : Cronjob setup
+Added a health check up script in which it check HTTP status and gives logs as per that.
+Setup of cronjob at every 5th minute as per requirement.
+
+Step 10 : Documentaion in README file
 At last this is the documentation of steps performed and above are the tools used for the assessment.
+Provided the git repository link in the email.
+
+Thank You!!
