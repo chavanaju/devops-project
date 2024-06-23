@@ -23,7 +23,7 @@ Installed git and Created a git clone for my repository and added the file in it
 Using git push pushed the web application file i.e app.py file to the repository.
 
 Step 6 : Created CI/CD pipeline using Jenkins
-Installed jenkins and referred https://pkg.jenkins.io/debian-stable/ for it.For the jenkins to work for that allowed the 8080 port in the security group > inbound rule.
+Installed jenkins and referred https://pkg.jenkins.io/debian-stable/ for it.**For the jenkins to work for that allowed the 8080 port in the security group > inbound rule.**
 Next created a New Item as devops-project and configured pipeline in it.
 Further in the configuration added some script to connect the kill the app.py and restart it.
 Checked the pipeline if its working fine or not by checking the /var/lib/jenkins/workplace/app.py path.
